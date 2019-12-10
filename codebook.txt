@@ -1,0 +1,131 @@
+---------------------------
+Overview of the data
+--------------------------
+The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
+
+Subsequently, the body linear acceleration and angular velocity were derived in time to obtain Jerk signals (tBodyAccJerk-XYZ and tBodyGyroJerk-XYZ). Also the magnitude of these three-dimensional signals were calculated using the Euclidean norm (tBodyAccMag, tGravityAccMag, tBodyAccJerkMag, tBodyGyroMag, tBodyGyroJerkMag). 
+
+Then a Fast Fourier Transform (FFT) was applied to some of these signals producing fBodyAcc-XYZ, fBodyAccJerk-XYZ, fBodyGyro-XYZ, fBodyAccJerkMag, fBodyGyroMag, fBodyGyroJerkMag. (Note the 'f' to indicate frequency domain signals). 
+
+These signals were used to estimate variables of the feature vector for each pattern:  
+'-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
+
+tBodyAcc-XYZ
+tGravityAcc-XYZ
+tBodyAccJerk-XYZ
+tBodyGyro-XYZ
+tBodyGyroJerk-XYZ
+tBodyAccMag
+tGravityAccMag
+tBodyAccJerkMag
+tBodyGyroMag
+tBodyGyroJerkMag
+fBodyAcc-XYZ
+fBodyAccJerk-XYZ
+fBodyGyro-XYZ
+fBodyAccMag
+fBodyAccJerkMag
+fBodyGyroMag
+fBodyGyroJerkMag
+
+The set of variables that were estimated from these signals are: 
+
+mean(): Mean value
+std(): Standard deviation
+
+The variables were collected for 30 subjects, performing six different activities.  
+The variables collected were then averaged for each activity and each subject
+
+
+-----------------------
+Variables in data set:
+----------------------
+activityid - identifier for the activity - values 1 to 6                        
+activity - name of the activity - WALKING;WALKING_UPSTAIRS;WALKING_DOWNSTAIRS;SITTING;STANDING;LAYING                      
+subject - identifier for the subject - values 1 to 30                         
+tBodyAcc_mean_X_average         
+tBodyAcc_mean_Y_average           
+tBodyAcc_mean_Z_average         
+tBodyAcc_std_X_average            
+tBodyAcc_std_Y_average           
+tBodyAcc_std_Z_average            
+tGravityAcc_mean_X_average       
+tGravityAcc_mean_Y_average        
+tGravityAcc_mean_Z_average       
+tGravityAcc_std_X_average         
+tGravityAcc_std_Y_average        
+tGravityAcc_std_Z_average         
+tBodyAccJerk_mean_X_average      
+tBodyAccJerk_mean_Y_average       
+tBodyAccJerk_mean_Z_average      
+tBodyAccJerk_std_X_average        
+tBodyAccJerk_std_Y_average       
+tBodyAccJerk_std_Z_average        
+tBodyGyro_mean_X_average         
+tBodyGyro_mean_Y_average          
+tBodyGyro_mean_Z_average         
+tBodyGyro_std_X_average           
+tBodyGyro_std_Y_average          
+tBodyGyro_std_Z_average           
+tBodyGyroJerk_mean_X_average     
+tBodyGyroJerk_mean_Y_average      
+tBodyGyroJerk_mean_Z_average     
+tBodyGyroJerk_std_X_average       
+tBodyGyroJerk_std_Y_average      
+tBodyGyroJerk_std_Z_average       
+tBodyAccMag_mean_average         
+tBodyAccMag_std_average           
+tGravityAccMag_mean_average      
+tGravityAccMag_std_average        
+tBodyAccJerkMag_mean_average     
+tBodyAccJerkMag_std_average       
+tBodyGyroMag_mean_average        
+tBodyGyroMag_std_average          
+tBodyGyroJerkMag_mean_average    
+tBodyGyroJerkMag_std_average      
+fBodyAcc_mean_X_average          
+fBodyAcc_mean_Y_average           
+fBodyAcc_mean_Z_average          
+fBodyAcc_std_X_average            
+fBodyAcc_std_Y_average           
+fBodyAcc_std_Z_average            
+fBodyAccJerk_mean_X_average      
+fBodyAccJerk_mean_Y_average       
+fBodyAccJerk_mean_Z_average      
+fBodyAccJerk_std_X_average        
+fBodyAccJerk_std_Y_average       
+fBodyAccJerk_std_Z_average        
+fBodyGyro_mean_X_average         
+fBodyGyro_mean_Y_average          
+fBodyGyro_mean_Z_average         
+fBodyGyro_std_X_average           
+fBodyGyro_std_Y_average          
+fBodyGyro_std_Z_average           
+fBodyAccMag_mean_average         
+fBodyAccMag_std_average           
+fBodyBodyAccJerkMag_mean_average 
+fBodyBodyAccJerkMag_std_average   
+fBodyBodyGyroMag_mean_average    
+fBodyBodyGyroMag_std_average      
+fBodyBodyGyroJerkMag_mean_average
+fBodyBodyGyroJerkMag_std_average 
+
+
+-------------------------
+To replicate the output:
+-------------------------
+To generates the resultant data set, extract the source data from here:
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+
+A full description is available at the site where the data was obtained:
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+
+Then run the script run_analysis.R in the directory containing the UCI HAR Dataset.
+
+
+
+
+
+
+
+
