@@ -121,7 +121,7 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 
 Then run the script run_analysis.R in the directory containing the UCI HAR Dataset.
 
-The variable 'averages' contains the resultants dataset.
+The variable 'averages' contains the resultant dataset.
 
 
 
