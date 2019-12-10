@@ -35,11 +35,12 @@ dataall <- rbind(datatest,datatrain)
 
 # adding activity labels
 dataall <- merge(activitylabels, dataall, by.x = "V1", by.y = "label")
-names(dataall)[1:2] <- c("activityid","activity")
+dataall <- dataall[,2:dim(dataall)[2]]
+names(dataall)[1] <- "activity"
 
 # calculating averages
-dataall <- group_by(dataall, activityid, activity, subject)
+dataall <- group_by(dataall, activity, subject)
 averages <- summarize_all(dataall, funs(mean))
-names(averages)[4:69] <- paste(names(averages)[4:69],"_average", sep = "")
+names(averages)[3:68] <- paste(names(averages)[3:68],"_average", sep = "")
 
 
