@@ -40,75 +40,74 @@ The variables collected were then averaged for each activity and each subject
 -----------------------
 Variables in data set:
 ----------------------
-activityid - identifier for the activity - values 1 to 6                        
-activity - name of the activity - WALKING;WALKING_UPSTAIRS;WALKING_DOWNSTAIRS;SITTING;STANDING;LAYING                      
-subject - identifier for the subject - values 1 to 30                         
-tBodyAcc_mean_X_average         
-tBodyAcc_mean_Y_average           
-tBodyAcc_mean_Z_average         
-tBodyAcc_std_X_average            
-tBodyAcc_std_Y_average           
-tBodyAcc_std_Z_average            
-tGravityAcc_mean_X_average       
-tGravityAcc_mean_Y_average        
-tGravityAcc_mean_Z_average       
-tGravityAcc_std_X_average         
-tGravityAcc_std_Y_average        
-tGravityAcc_std_Z_average         
-tBodyAccJerk_mean_X_average      
-tBodyAccJerk_mean_Y_average       
-tBodyAccJerk_mean_Z_average      
-tBodyAccJerk_std_X_average        
-tBodyAccJerk_std_Y_average       
-tBodyAccJerk_std_Z_average        
-tBodyGyro_mean_X_average         
-tBodyGyro_mean_Y_average          
-tBodyGyro_mean_Z_average         
-tBodyGyro_std_X_average           
-tBodyGyro_std_Y_average          
-tBodyGyro_std_Z_average           
-tBodyGyroJerk_mean_X_average     
-tBodyGyroJerk_mean_Y_average      
-tBodyGyroJerk_mean_Z_average     
-tBodyGyroJerk_std_X_average       
-tBodyGyroJerk_std_Y_average      
-tBodyGyroJerk_std_Z_average       
-tBodyAccMag_mean_average         
-tBodyAccMag_std_average           
-tGravityAccMag_mean_average      
-tGravityAccMag_std_average        
-tBodyAccJerkMag_mean_average     
-tBodyAccJerkMag_std_average       
-tBodyGyroMag_mean_average        
-tBodyGyroMag_std_average          
-tBodyGyroJerkMag_mean_average    
-tBodyGyroJerkMag_std_average      
-fBodyAcc_mean_X_average          
-fBodyAcc_mean_Y_average           
-fBodyAcc_mean_Z_average          
-fBodyAcc_std_X_average            
-fBodyAcc_std_Y_average           
-fBodyAcc_std_Z_average            
-fBodyAccJerk_mean_X_average      
-fBodyAccJerk_mean_Y_average       
-fBodyAccJerk_mean_Z_average      
-fBodyAccJerk_std_X_average        
-fBodyAccJerk_std_Y_average       
-fBodyAccJerk_std_Z_average        
-fBodyGyro_mean_X_average         
-fBodyGyro_mean_Y_average          
-fBodyGyro_mean_Z_average         
-fBodyGyro_std_X_average           
-fBodyGyro_std_Y_average          
-fBodyGyro_std_Z_average           
-fBodyAccMag_mean_average         
-fBodyAccMag_std_average           
-fBodyBodyAccJerkMag_mean_average 
-fBodyBodyAccJerkMag_std_average   
-fBodyBodyGyroMag_mean_average    
-fBodyBodyGyroMag_std_average      
-fBodyBodyGyroJerkMag_mean_average
-fBodyBodyGyroJerkMag_std_average 
+1  activity - name of the activity - WALKING;WALKING_UPSTAIRS;WALKING_DOWNSTAIRS;SITTING;STANDING;LAYING                      
+2  subject - identifier for the subject - values 1 to 30                         
+3  tBodyAcc_mean_X_average - variable is normalized - i.e. no units        
+4  tBodyAcc_mean_Y_average - variable is normalized - i.e. no units           
+5  tBodyAcc_mean_Z_average - variable is normalized - i.e. no units         
+6  tBodyAcc_std_X_average - variable is normalized - i.e. no units            
+7  tBodyAcc_std_Y_average - variable is normalized - i.e. no units           
+8  tBodyAcc_std_Z_average - variable is normalized - i.e. no units            
+9  tGravityAcc_mean_X_average - variable is normalized - i.e. no units       
+10 tGravityAcc_mean_Y_average - variable is normalized - i.e. no units        
+11 tGravityAcc_mean_Z_average - variable is normalized - i.e. no units       
+12 tGravityAcc_std_X_average - variable is normalized - i.e. no units         
+13 tGravityAcc_std_Y_average - variable is normalized - i.e. no units        
+14 tGravityAcc_std_Z_average - variable is normalized - i.e. no units         
+15 tBodyAccJerk_mean_X_average - variable is normalized - i.e. no units      
+16 tBodyAccJerk_mean_Y_average - variable is normalized - i.e. no units       
+17 tBodyAccJerk_mean_Z_average - variable is normalized - i.e. no units      
+18 tBodyAccJerk_std_X_average - variable is normalized - i.e. no units        
+29 tBodyAccJerk_std_Y_average - variable is normalized - i.e. no units       
+20 tBodyAccJerk_std_Z_average - variable is normalized - i.e. no units        
+21 tBodyGyro_mean_X_average - variable is normalized - i.e. no units         
+22 tBodyGyro_mean_Y_average - variable is normalized - i.e. no units          
+23 tBodyGyro_mean_Z_average - variable is normalized - i.e. no units         
+24 tBodyGyro_std_X_average - variable is normalized - i.e. no units           
+25 tBodyGyro_std_Y_average - variable is normalized - i.e. no units          
+26 tBodyGyro_std_Z_average - variable is normalized - i.e. no units           
+27 tBodyGyroJerk_mean_X_average - variable is normalized - i.e. no units     
+28 tBodyGyroJerk_mean_Y_average - variable is normalized - i.e. no units      
+29 tBodyGyroJerk_mean_Z_average - variable is normalized - i.e. no units     
+30 tBodyGyroJerk_std_X_average - variable is normalized - i.e. no units       
+31 tBodyGyroJerk_std_Y_average - variable is normalized - i.e. no units      
+32 tBodyGyroJerk_std_Z_average - variable is normalized - i.e. no units       
+33 tBodyAccMag_mean_average - variable is normalized - i.e. no units         
+34 tBodyAccMag_std_average - variable is normalized - i.e. no units           
+35 tGravityAccMag_mean_average - variable is normalized - i.e. no units      
+36 tGravityAccMag_std_average - variable is normalized - i.e. no units        
+37 tBodyAccJerkMag_mean_average - variable is normalized - i.e. no units     
+38 tBodyAccJerkMag_std_average - variable is normalized - i.e. no units       
+39 tBodyGyroMag_mean_average - variable is normalized - i.e. no units        
+40 tBodyGyroMag_std_average - variable is normalized - i.e. no units          
+41 tBodyGyroJerkMag_mean_average - variable is normalized - i.e. no units    
+42 tBodyGyroJerkMag_std_average - variable is normalized - i.e. no units      
+43 fBodyAcc_mean_X_average - variable is normalized - i.e. no units          
+44 fBodyAcc_mean_Y_average - variable is normalized - i.e. no units           
+45 fBodyAcc_mean_Z_average - variable is normalized - i.e. no units          
+46 fBodyAcc_std_X_average - variable is normalized - i.e. no units            
+47 fBodyAcc_std_Y_average - variable is normalized - i.e. no units           
+48 fBodyAcc_std_Z_average - variable is normalized - i.e. no units            
+49 fBodyAccJerk_mean_X_average - variable is normalized - i.e. no units      
+50 fBodyAccJerk_mean_Y_average - variable is normalized - i.e. no units       
+51 fBodyAccJerk_mean_Z_average - variable is normalized - i.e. no units      
+52 fBodyAccJerk_std_X_average - variable is normalized - i.e. no units        
+53 fBodyAccJerk_std_Y_average - variable is normalized - i.e. no units       
+54 fBodyAccJerk_std_Z_average - variable is normalized - i.e. no units        
+55 fBodyGyro_mean_X_average - variable is normalized - i.e. no units         
+56 fBodyGyro_mean_Y_average - variable is normalized - i.e. no units          
+57 fBodyGyro_mean_Z_average - variable is normalized - i.e. no units         
+58 fBodyGyro_std_X_average - variable is normalized - i.e. no units           
+59 fBodyGyro_std_Y_average - variable is normalized - i.e. no units          
+60 fBodyGyro_std_Z_average - variable is normalized - i.e. no units           
+61 fBodyAccMag_mean_average - variable is normalized - i.e. no units         
+62 fBodyAccMag_std_average - variable is normalized - i.e. no units           
+63 fBodyBodyAccJerkMag_mean_average - variable is normalized - i.e. no units 
+64 fBodyBodyAccJerkMag_std_average - variable is normalized - i.e. no units   
+65 fBodyBodyGyroMag_mean_average - variable is normalized - i.e. no units    
+66 fBodyBodyGyroMag_std_average - variable is normalized - i.e. no units      
+67 fBodyBodyGyroJerkMag_mean_average - variable is normalized - i.e. no units
+68 fBodyBodyGyroJerkMag_std_average - variable is normalized - i.e. no units 
 
 
 -------------------------
@@ -121,6 +120,8 @@ A full description is available at the site where the data was obtained:
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
 Then run the script run_analysis.R in the directory containing the UCI HAR Dataset.
+
+The variable 'averages' contains the resultants dataset.
 
 
 
