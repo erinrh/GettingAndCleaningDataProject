@@ -113,7 +113,7 @@ Variables in data set:
 -------------------------
 To replicate the output:
 -------------------------
-To generates the resultant data set, extract the source data from here:
+To generate the resultant data set, extract the source data from here:
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
 A full description is available at the site where the data was obtained:
